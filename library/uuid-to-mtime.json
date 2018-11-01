@@ -239,11 +239,6 @@
     "meta": 1541067249000,
     "relativePath": "Scene/test.fire"
   },
-  "a997f41c-ff85-40a8-9ecf-37d091f1e33a": {
-    "asset": 1541067216000,
-    "meta": 1541067216000,
-    "relativePath": "Script/CardCtrl.js"
-  },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
     "asset": 1541066236000,
     "meta": 1541067216000,
@@ -263,5 +258,10 @@
     "asset": 1541067492000,
     "meta": 1541067493000,
     "relativePath": "Script/DragSelect.js"
+  },
+  "a997f41c-ff85-40a8-9ecf-37d091f1e33a": {
+    "asset": 1541067929000,
+    "meta": 1541068067000,
+    "relativePath": "Script/CardCtrl.js"
   }
 }

@@ -113,3 +113,65 @@
 2018-11-01T10:24:40.848Z - normal: Simulator: After first cleanup, dragonbones object remained count: 0
 2018-11-01T10:24:40.849Z - normal: Simulator: After second cleanup, dragonbones object remained count: 0
 2018-11-01T10:24:40.862Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-11-01T10:27:51.438Z - normal: Simulator: WORKAREA WIDTH 2048.00, HEIGHT 1038.00
+2018-11-01T10:27:51.440Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-01T10:27:51.445Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-01T10:27:51.515Z - normal: Simulator: 
+2018-11-01T10:27:51.515Z - normal: Simulator: {
+2018-11-01T10:27:51.526Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-01T10:27:51.526Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-01T10:27:51.526Z - normal: Simulator: 	cocos2d.x.version: Cocos2d-x-lite v1.8.2
+2018-11-01T10:27:51.526Z - normal: Simulator: 	gl.vendor: ATI Technologies Inc.
+2018-11-01T10:27:51.526Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-01T10:27:51.527Z - normal: Simulator: 	gl.renderer: AMD Radeon Pro 570 OpenGL Engine
+2018-11-01T10:27:51.527Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-01T10:27:51.527Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-01T10:27:51.527Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-01T10:27:51.527Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-01T10:27:51.527Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-01T10:27:51.528Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-01T10:27:51.528Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-01T10:27:51.528Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-01T10:27:51.528Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-01T10:27:51.528Z - normal: Simulator: 	gl.version: 2.1 ATI-1.68.20
+2018-11-01T10:27:51.528Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-01T10:27:51.529Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-01T10:27:51.529Z - normal: Simulator: }
+2018-11-01T10:27:51.529Z - normal: Simulator: 
+2018-11-01T10:27:51.529Z - normal: Simulator: 
+2018-11-01T10:27:51.529Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-01T10:27:51.552Z - normal: Simulator: Project Config:
+2018-11-01T10:27:51.553Z - normal: Simulator:     project dir: /Work/devTools/cocos2d-x-lite/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-01T10:27:51.553Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-01T10:27:51.554Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-01T10:27:51.554Z - normal: Simulator:     frame size: 1280 x 720
+2018-11-01T10:27:51.554Z - normal: Simulator:     frame scale: 1.00
+2018-11-01T10:27:51.554Z - normal: Simulator:     show console: NO
+2018-11-01T10:27:51.554Z - normal: Simulator:     write debug log: NO ()
+2018-11-01T10:27:51.555Z - normal: Simulator:     listen: 
+2018-11-01T10:27:51.555Z - normal: Simulator:     debugger: none
+2018-11-01T10:27:51.555Z - normal: Simulator:     add searching path:
+2018-11-01T10:27:51.555Z - normal: Simulator: ------------------------------------------------
+2018-11-01T10:27:51.555Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-01T10:27:51.556Z - normal: Simulator: ------------------------------------------------
+2018-11-01T10:27:51.556Z - normal: Simulator: Initializing JavaScriptCore 
+2018-11-01T10:27:51.604Z - normal: Simulator: JS: Cocos2d-x-lite v1.8.2
+2018-11-01T10:27:51.744Z - normal: Simulator: iShow!
+2018-11-01T10:27:51.905Z - normal: Simulator: JS: InitScene: 9.009999999999991ms
+2018-11-01T10:27:51.906Z - normal: Simulator: JS: AutoRelease: 1.2320000000000277ms
+2018-11-01T10:27:51.906Z - normal: Simulator: JS: Destroy: 0.05500000000000682ms
+2018-11-01T10:27:51.906Z - normal: Simulator: JS: AttachPersist: 0.002999999999985903ms
+2018-11-01T10:27:51.913Z - normal: Simulator: JS: Activate: 5.656999999999982ms
+2018-11-01T10:27:51.913Z - normal: Simulator: JS: CARD_DISTANCE: -20
+2018-11-01T10:29:34.758Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-11-01T10:29:34.760Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 112
+2018-11-01T10:29:34.761Z - normal: Simulator: GC end ..., (Native -> JS map) count: 112
+2018-11-01T10:29:34.761Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 112
+2018-11-01T10:29:34.762Z - normal: Simulator: GC end ..., (Native -> JS map) count: 112
+2018-11-01T10:29:34.762Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 112
+2018-11-01T10:29:34.770Z - normal: Simulator: GC end ..., (Native -> JS map) count: 112
+2018-11-01T10:29:34.771Z - normal: Simulator: Starting to cleanup dragonbones object, count: 0
+2018-11-01T10:29:34.771Z - normal: Simulator: After first cleanup, dragonbones object remained count: 0
+2018-11-01T10:29:34.772Z - normal: Simulator: After second cleanup, dragonbones object remained count: 0
+2018-11-01T10:29:34.772Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-11-01T10:29:38.415Z - info: shutdown preview server
