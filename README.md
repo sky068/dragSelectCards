@@ -1,2 +1,2 @@
-# hello-world
-Hello world new project template.
+# dragSelectCards
+滑动选择卡牌，斗地主选择卡牌
