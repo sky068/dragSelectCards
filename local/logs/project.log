@@ -1,0 +1,115 @@
+2018-11-01T10:24:24.311Z - normal: Load ~/.CocosCreator/settings.json
+2018-11-01T10:24:24.313Z - normal: checking language setting...
+2018-11-01T10:24:24.314Z - normal: Language: zh
+2018-11-01T10:24:25.920Z - success: protocol editor-framework registered
+2018-11-01T10:24:25.920Z - success: protocol app registered
+2018-11-01T10:24:25.921Z - success: protocol theme registered
+2018-11-01T10:24:25.921Z - success: protocol packages registered
+2018-11-01T10:24:25.921Z - success: protocol unpack registerred
+2018-11-01T10:24:25.921Z - success: protocol disable-commonjs registerred
+2018-11-01T10:24:26.164Z - normal: connected!
+2018-11-01T10:24:26.164Z - normal: Check project /Work/cccProj/dragSelectCards
+2018-11-01T10:24:26.165Z - normal: Initializing Cocos2d
+2018-11-01T10:24:26.302Z - normal: Initializing Asset Database
+2018-11-01T10:24:26.369Z - success: protocol uuid registerred
+2018-11-01T10:24:26.369Z - success: protocol db registerred
+2018-11-01T10:24:26.369Z - success: protocol thumbnail registerred
+2018-11-01T10:24:26.370Z - normal: Loading editor/builtin packages
+2018-11-01T10:24:26.414Z - success: anysdk loaded
+2018-11-01T10:24:26.501Z - success: assets loaded
+2018-11-01T10:24:26.506Z - success: builder loaded
+2018-11-01T10:24:26.508Z - success: cocos-analytics loaded
+2018-11-01T10:24:26.511Z - success: console loaded
+2018-11-01T10:24:26.545Z - success: fb-instant-games loaded
+2018-11-01T10:24:26.548Z - success: hierarchy loaded
+2018-11-01T10:24:26.552Z - success: inspector loaded
+2018-11-01T10:24:26.554Z - success: keystore loaded
+2018-11-01T10:24:26.562Z - success: node-library loaded
+2018-11-01T10:24:26.563Z - success: package-asset loaded
+2018-11-01T10:24:26.565Z - success: preferences loaded
+2018-11-01T10:24:26.575Z - success: project-exporter loaded
+2018-11-01T10:24:26.589Z - success: project-importer loaded
+2018-11-01T10:24:26.591Z - success: project-settings loaded
+2018-11-01T10:24:26.618Z - success: ui-kit loaded
+2018-11-01T10:24:26.626Z - success: ui-grid loaded
+2018-11-01T10:24:26.630Z - success: scene loaded
+2018-11-01T10:24:26.631Z - success: sprite-editor loaded
+2018-11-01T10:24:26.635Z - success: store loaded
+2018-11-01T10:24:26.640Z - success: timeline loaded
+2018-11-01T10:24:26.641Z - normal: Loading builtin packages
+2018-11-01T10:24:26.651Z - success: asset-db-debugger loaded
+2018-11-01T10:24:26.652Z - success: color-picker loaded
+2018-11-01T10:24:26.655Z - success: package-manager loaded
+2018-11-01T10:24:26.718Z - success: sdkbox loaded
+2018-11-01T10:24:26.723Z - success: tester loaded
+2018-11-01T10:24:26.726Z - success: ui-kit-preview-extra loaded
+2018-11-01T10:24:26.729Z - success: ui-kit-preview loaded
+2018-11-01T10:24:26.732Z - normal: last time update is in one day
+2018-11-01T10:24:26.732Z - success: ui-tree loaded
+2018-11-01T10:24:27.468Z - normal: Initializing project /Work/cccProj/dragSelectCards
+2018-11-01T10:24:27.474Z - normal: Loading packages
+2018-11-01T10:24:27.478Z - normal: Watching packages
+2018-11-01T10:24:27.487Z - normal: Run Application
+2018-11-01T10:24:28.477Z - success: preview server running at http://localhost:7457
+2018-11-01T10:24:32.301Z - normal: 1.9.1
+2018-11-01T10:24:35.287Z - normal: Simulator: WORKAREA WIDTH 2048.00, HEIGHT 1038.00
+2018-11-01T10:24:35.290Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-01T10:24:35.295Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-01T10:24:35.362Z - normal: Simulator: 
+2018-11-01T10:24:35.362Z - normal: Simulator: {
+2018-11-01T10:24:35.363Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-01T10:24:35.363Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-01T10:24:35.363Z - normal: Simulator: 	cocos2d.x.version: Cocos2d-x-lite v1.8.2
+2018-11-01T10:24:35.380Z - normal: Simulator: 	gl.vendor: ATI Technologies Inc.
+2018-11-01T10:24:35.380Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-01T10:24:35.380Z - normal: Simulator: 	gl.renderer: AMD Radeon Pro 570 OpenGL Engine
+2018-11-01T10:24:35.382Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-01T10:24:35.383Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-01T10:24:35.383Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-01T10:24:35.383Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-01T10:24:35.383Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-01T10:24:35.384Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-01T10:24:35.384Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-01T10:24:35.384Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-01T10:24:35.384Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-01T10:24:35.384Z - normal: Simulator: 	gl.version: 2.1 ATI-1.68.20
+2018-11-01T10:24:35.384Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-01T10:24:35.384Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-01T10:24:35.384Z - normal: Simulator: }
+2018-11-01T10:24:35.385Z - normal: Simulator: 
+2018-11-01T10:24:35.385Z - normal: Simulator: 
+2018-11-01T10:24:35.385Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-01T10:24:35.401Z - normal: Simulator: Project Config:
+2018-11-01T10:24:35.401Z - normal: Simulator:     project dir: /Work/devTools/cocos2d-x-lite/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-01T10:24:35.401Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-01T10:24:35.404Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-01T10:24:35.404Z - normal: Simulator:     frame size: 1280 x 720
+2018-11-01T10:24:35.404Z - normal: Simulator:     frame scale: 1.00
+2018-11-01T10:24:35.404Z - normal: Simulator:     show console: NO
+2018-11-01T10:24:35.404Z - normal: Simulator:     write debug log: NO ()
+2018-11-01T10:24:35.404Z - normal: Simulator:     listen: 
+2018-11-01T10:24:35.404Z - normal: Simulator:     debugger: none
+2018-11-01T10:24:35.405Z - normal: Simulator:     add searching path:
+2018-11-01T10:24:35.405Z - normal: Simulator: ------------------------------------------------
+2018-11-01T10:24:35.405Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-01T10:24:35.405Z - normal: Simulator: ------------------------------------------------
+2018-11-01T10:24:35.405Z - normal: Simulator: Initializing JavaScriptCore 
+2018-11-01T10:24:35.451Z - normal: Simulator: JS: Cocos2d-x-lite v1.8.2
+2018-11-01T10:24:35.592Z - normal: Simulator: iShow!
+2018-11-01T10:24:35.763Z - normal: Simulator: JS: InitScene: 4.309000000000026ms
+2018-11-01T10:24:35.763Z - normal: Simulator: JS: AutoRelease: 0.1139999999999759ms
+2018-11-01T10:24:35.763Z - normal: Simulator: JS: Destroy: 0.047000000000025466ms
+2018-11-01T10:24:35.764Z - normal: Simulator: JS: AttachPersist: 0.0030000000000427463ms
+2018-11-01T10:24:35.769Z - normal: Simulator: JS: Activate: 6.073000000000036ms
+2018-11-01T10:24:35.770Z - normal: Simulator: JS: CARD_DISTANCE: -20
+2018-11-01T10:24:40.788Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-11-01T10:24:40.789Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 117
+2018-11-01T10:24:40.794Z - normal: Simulator: GC end ..., (Native -> JS map) count: 92
+2018-11-01T10:24:40.795Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 92
+2018-11-01T10:24:40.796Z - normal: Simulator: GC end ..., (Native -> JS map) count: 92
+2018-11-01T10:24:40.797Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 92
+2018-11-01T10:24:40.799Z - normal: Simulator: GC end ..., (Native -> JS map) count: 92
+2018-11-01T10:24:40.848Z - normal: Simulator: Starting to cleanup dragonbones object, count: 0
+2018-11-01T10:24:40.848Z - normal: Simulator: After first cleanup, dragonbones object remained count: 0
+2018-11-01T10:24:40.849Z - normal: Simulator: After second cleanup, dragonbones object remained count: 0
+2018-11-01T10:24:40.862Z - normal: Simulator: ScriptEngine::cleanup end ...
