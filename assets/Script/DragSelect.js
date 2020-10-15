@@ -18,6 +18,8 @@ cc.Class({
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
         this.node.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
         this.node.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
+        this.node.on(cc.Node.EventType.TOUCH_CANCEL, this.onTouchEnd, this);
+
 
         this.cardsArr = this.node.getChildren();
         let card = this.cardsArr[0];
@@ -56,11 +58,11 @@ cc.Class({
     },
 
     _checkSelectCard(beginPos, endPos, isBegin){
-        let len = this.cardsArr.length;
+        const len = this.cardsArr.length;
         if (isBegin){
             for (let i=len-1; i>=0; i--){
                 let card = this.cardsArr[i];
-                if (cc.rectContainsPoint(card.getBoundingBox(), beginPos)){
+                if (card.getBoundingBox().contains(beginPos)){
                     card.getComponent('CardCtrl').touched = true;
                     return;
                 }
@@ -74,10 +76,10 @@ cc.Class({
 
             for (let i=len-1; i>=0; i--){
                 let card = this.cardsArr[i];
-                if (cc.rectIntersectsRect(card.getBoundingBox(), touchRect)){
+                if (card.getBoundingBox().contains(touchRect)){
                     card.getComponent('CardCtrl').touched = true;
                     return;
-                }
+                } 
             }
         }
     },
@@ -88,19 +90,17 @@ cc.Class({
         let h = Math.abs(beginPos.y - endPos.y);
         let rect = cc.rect(p1.x, p1.y, w, h);
 
-        let len = this.cardsArr.length;
+        const len = this.cardsArr.length;
         for (let i=len-1; i>=0; i--){
             let card = this.cardsArr[i];
-            if (!cc.rectIntersectsRect(card.getBoundingBox(), rect)){
+            if (!cc.Intersection.rectRect(card.getBoundingBox(), rect)){
                 card.getComponent('CardCtrl').touched = false;
-            }
-        }
-
-        // 从右向左框取然后又移动回右侧则取消左侧已经选择的卡牌
-        for (let i=0; i<len; i++){
-            let card = this.cardsArr[i];
-            if (p1.x - card.x >= this.CARD_DISTANCE){
-                card.getComponent('CardCtrl').touched = false;
+            } else {
+                // 在矩形框内但是被旁边但牌压着也不算选中
+                // 最后一张（最上面但）需要特殊处理
+                if (p1.x - card.x >= this.CARD_DISTANCE && i != len - 1){
+                    card.getComponent('CardCtrl').touched = false;
+                }
             }
         }
     }
